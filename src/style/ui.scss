@@ -7,6 +7,13 @@
     --index: calc(1vw + 1vh);
 }
 
+.slider-ui {
+    position: absolute;
+    left: 0;
+    right: 0;
+    z-index: 10;
+}
+
 .container {
     max-width: var(--container-width);
     margin: auto;
@@ -101,7 +108,7 @@
 
 .letter {
     position: relative;
-    top: -70px;
+    top: 100px;
     opacity: 0;
     font-size: calc(var(--index) * 10);
     font-weight: 900;
@@ -135,5 +142,13 @@
 
     .button {
         padding: 8px 12px;
+    }
+
+    .content {
+        --overlap: 15px;
+    }
+
+    .letter {
+        font-size: calc(var(--index) * 7);
     }
 }

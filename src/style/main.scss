@@ -41,11 +41,6 @@ body {
     will-change: transform;
 }
 
-.slider-ui {
-  position: absolute;
-  inset: 0;
-  z-index: 10;
-}
 
 @media screen and (width <= 768px) {
     body {
